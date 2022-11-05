@@ -28,7 +28,7 @@ Description: To exploit using SQL Injection, click on "find a salesperson" and p
 
 Vulnerability #1: Username Enumeration and Cross-Site Scripting
 
-Description: To perform the Cross-Site Scripting exploit, you must go to the feedback page without logging in. Fill out the form by inputting any name, email address, and a javascript code message into the "feedback" area. Next, log into the website and click on "feedback." The javascript code will run once you click on that page. To perform Username Enumeration, you must first attempt to log into the site using an existing username with an incorrect password. The website will return the message "log 
+Description: To perform the Cross-Site Scripting exploit, you must go to the feedback page without logging in. Fill out the form by inputting any name, email address, and a javascript code message into the "feedback" area. Next, log into the website and click on "feedback." The javascript code will run once you click on that page. To perform Username Enumeration, you must first attempt to log into the site using an existing username with an incorrect password. The website will return the message "log in was unsuccessful" in print. Next, attempt to log in using a nonexisting username and any password. The website will return the same message a before, but it will be in bold.
 
 <img src="green-vuln1.gif">
 
