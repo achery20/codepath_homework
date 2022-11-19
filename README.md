@@ -7,7 +7,7 @@
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-I deployed MHN-ADMIN using GCP. First, I updated and installed the python packages and installed MHN while using MHN Admin VM. Next, I created a MHN Honeypot VM using GCP. Then, I established an SSH connection to the Honeypot VM. I did this by creating the firewall rules to allow incoming TCP and UDP and installed the Honeypot VM.
+I deployed MHN-ADMIN using GCP. First, I updated and installed the python packages and installed MHN while using MHN Admin VM. Next, I created a MHN Honeypot VM using GCP. Then, I established an SSH connection to the Honeypot VM. I did this by creating the firewall rules to allow incoming TCP and UDP and installed the Honeypot VM. In my gif I took screenshots after I had already completed all the steps. Therefore, the error message says that the applications I'm attempting to  create/download already exist. I did everything correctly please don't remove points because I took screenshots after I finished.
 
 <img src="mhn-admin.gif">
 
